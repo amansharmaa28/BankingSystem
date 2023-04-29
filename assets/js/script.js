@@ -14,7 +14,8 @@ function sendMoney(){
       document.getElementById(findUserBankAccount).innerHTML = finalAmount;
       alert(`Successful Transaction !!  
       $${enterAmount} is sent to ${enterName}@email.com.`)
-
+      
+      
       // transaction history 
       var createPTag = document.createElement("li");
       var textNode = document.createTextNode(`$${enterAmount} is sent to recepient with Email-id ${enterName}@email.com on ${Date()}.`);
